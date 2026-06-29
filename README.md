@@ -30,24 +30,17 @@ Esse projeto foi desenvolvido para que o usuário informe a URL do servidor web 
 
 ### 🚀 4.0. Fluxograma do Projeto
 
-## Mermaid
+![imagem fluxo](/images/imagem%20fluxo.png)
 
 ### 📊 5.0. Tecnologias Utilizadas
 
-Tecnologia
-Finalidade
-n8n
-Automação do fluxo
-Gemini 3.1 flash lite
-Análise das vulnerabilidades
-HTTP Request
-Coleta de informações
-SSL Labs API 
-Verificação SSL
-Markdown/HTML
-Geração do relatório
-Docker (se utilizado)
-Hospedagem do n8n
+| Tecnologia              | Finalidade                   |
+|-------------------------|------------------------------|
+| n8n                     | Automação do fluxo           |
+| Gemini 2.5 Flash        | Análise das vulnerabilidades |
+| HTTP Request            | Coleta de informações        |
+| SSL Labs API            | Verificação de SSL           |
+| HTML/Gmail              | Geração do relatório         |
 
 ### 📚 6.0. Fluxo do Processo
 O fluxo do processo deste projeto se apresenta dessa forma:
@@ -64,13 +57,19 @@ O fluxo do processo deste projeto se apresenta dessa forma:
 - Geração do relatório
 
 ### ✅ 7.0. Protótipo Funcional
-Prints do workflow do n8n.
 
-Mostrar:
-Workflow completo
-Execução
-Entrada da URL
-Saída do relatório
+#### Workflow completo
+
+![imagem workflow](/images/imagem%201.png)
+
+#### Execução
+
+![imagem execucao](/images/imagem%202.png)
+
+#### Saída do relatório HTML e Gmail
+
+![imagem saida](/images/imagem%203.png)
+![imagem saida2](/images/imagem%204.png)
 
 ### 🔍 8.0. IA e prompts utilizados
 ChatGPT (modelo GPT da OpenAI) - Prompt: “Organize os principais tópicos para distribuir o trabalho ”
@@ -89,4 +88,4 @@ para a tomada de decisão. Dessa forma, a ferramenta reduz o tempo necessário p
 
 ### 🔐 12.0. Licença
 
-Este projeto é distribuído sob a licença Creative Commons Zero v1.0 Universal. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto é distribuído sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
