@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido para que o usuário informe a URL do servidor web 
 
 ### 🏗️  3.0. Arquitetura da Solução 
 
-## Print do n8n - imagem do workflow
+![imagem arquitetura](./images/imagem%201.png)
 
 ### 🚀 4.0. Fluxograma do Projeto
 
