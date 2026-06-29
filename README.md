@@ -56,7 +56,7 @@ O fluxo do processo deste projeto se apresenta dessa forma:
 - Geração das recomendações
 - Geração do relatório
 
-### ✅ 7.0. Tela da Aplicação
+### ✅ 7.0. Protótipo Funcional
 
 #### Workflow completo
 
