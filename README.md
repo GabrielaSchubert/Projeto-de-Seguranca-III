@@ -14,19 +14,19 @@ Desenvolver uma ferramenta automatizada capaz de realizar um diagnóstico de vul
 A ferramenta realiza automaticamente a coleta de informações do alvo informado pelo usuário, identifica possíveis vulnerabilidades, classifica os riscos encontrados, sugere medidas corretivas e gera um relatório técnico.
 
 #### 📌 1.1. Objetivos Específicos
-Automatizar auditorias iniciais de segurança
-Identificar configurações inseguras
-Detectar problemas relacionados a SSL/TLS
-Classificar riscos
-Gerar recomendações
-Produzir relatório automaticamente
+- Automatizar auditorias iniciais de segurança
+- Identificar configurações inseguras
+- Detectar problemas relacionados a SSL/TLS
+- Classificar riscos
+- Gerar recomendações
+- Produzir relatório automaticamente
 
 ### 📄 2.0. Descrição do Projeto
 Esse projeto foi desenvolvido para que o usuário informe a URL do servidor web que deseja analisar. O workflow desenvolvido no n8n inicia automaticamente uma sequência de etapas responsáveis por coletar informações públicas do alvo, enviar os dados para análise utilizando IA, identificar vulnerabilidades relacionadas à configuração do servidor, classificar os riscos encontrados e gerar um relatório final contendo recomendações de mitigação. 
 
 ### 🏗️  3.0. Arquitetura da Solução 
 
-![imagem arquitetura](./images/imagem%201.png)
+![imagem arquitetura](/images/imagem%201.png)
 
 ### 🚀 4.0. Fluxograma do Projeto
 
@@ -56,7 +56,7 @@ O fluxo do processo deste projeto se apresenta dessa forma:
 - Geração das recomendações
 - Geração do relatório
 
-### ✅ 7.0. Protótipo Funcional
+### ✅ 7.0. Tela da Aplicação
 
 #### Workflow completo
 
@@ -66,16 +66,17 @@ O fluxo do processo deste projeto se apresenta dessa forma:
 
 ![imagem execucao](/images/imagem%202.png)
 
-#### Saída do relatório HTML e Gmail
-
-![imagem saida](/images/imagem%203.png)
-![imagem saida2](/images/imagem%204.png)
-
 ### 🔍 8.0. IA e prompts utilizados
 ChatGPT (modelo GPT da OpenAI) - Prompt: “Organize os principais tópicos para distribuir o trabalho ”
 
 ### 📑 9.0. Relatório Gerado
-Print de exemplo de relatório gerado no n8n
+A aplicação gera um relatório HTML que é enviado para o gmail
+
+#### HTML
+![imagem saida](/images/imagem%203.png)
+
+#### Gmail
+![imagem saida2](/images/imagem%204.png)
 
 ### 🎯 10.0. Resultados
 Esta ferramenta conseguiu automatizar o processo de auditoria inicial de segurança, reduzindo o tempo necessário para análise e produzindo relatórios padronizados com auxílio de IA. 
