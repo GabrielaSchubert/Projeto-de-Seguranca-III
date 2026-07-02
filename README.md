@@ -69,6 +69,11 @@ O fluxo do processo deste projeto se apresenta dessa forma:
 ### 🔍 8.0. IA e prompts utilizados
 ChatGPT (modelo GPT da OpenAI) - Prompt: “Organize os principais tópicos para distribuir o trabalho ”
 
+n8n _IA (modelo IA da n8n)  - Prompt: “ajude a instalar nó na arquitetura atual para receber os relatórios via email “gmail” “
+
+MODO IA (modelo do google) - Prompt: “Como funciona  o n8n? como se cria um fluxo passo a passo”
+
+
 ### 📑 9.0. Relatório Gerado
 A aplicação gera um relatório HTML que é enviado para o gmail
 
