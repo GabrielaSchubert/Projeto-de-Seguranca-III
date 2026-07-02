@@ -87,6 +87,10 @@ O desenvolvimento deste projeto demonstrou que é possível automatizar parte do
 A utilização da IA contribuiu para tornar a análise mais rápida e organizada, auxiliando na interpretação dos dados coletados e na elaboração de um relatório técnico com informações relevantes 
 para a tomada de decisão. Dessa forma, a ferramenta reduz o tempo necessário para uma avaliação inicial de segurança, fornece uma visão estruturada dos principais riscos identificados, é uma ferramenta útil para avaliações preliminares, identifica configurações inadequadas e apoia as atividades de segurança da informação.
 
-### 🔐 12.0. Licença
+### ▶️ 12.0. Link da Aplicação
+
+[Web Security Scanner](https://sidnick.app.n8n.cloud/form/7689996b-6140-480f-9bf1-18b5b91a20a0)
+
+### 🔐 13.0. Licença
 
 Este projeto é distribuído sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
